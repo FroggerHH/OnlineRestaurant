@@ -12,8 +12,6 @@ jobs:
         uses: stilosdesign/svelte-pages-action@v1.0.0
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          username: 'FroggerHH'
-          reposname: 'reposname'
-          repospage: 'gh-pages'          
+          username: 'FroggerHH'       
           script: 'npm install && npm run build'
           buildfolder: 'dist'
