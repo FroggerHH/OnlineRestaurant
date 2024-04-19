@@ -1,9 +1,5 @@
-name: Build svelte app to GitHub Pages
-
-on:
-  push:
-    branches:
-      - '*'
+name: Build And Deploy Svelte
+on: [push]
 
 jobs:
   build-and-deploy:
